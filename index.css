@@ -68,9 +68,13 @@ a {
     background-color: white;
 }
 
+.wrapper-img-pane {
+    display: flex;
+    justify-content: center;
+}
+
 .img-gedmatch-day-teaser {
     display: block;
-    margin: auto;
     height: 540;
     width: 540;
 }
@@ -86,8 +90,6 @@ a {
 .container-dna-testing {
     background-color: white;
 }
-
-.container-dna-testing div {}
 
 .container-whats-gedmatch {
     background-color: #4D869B;
@@ -166,6 +168,11 @@ a {
 
 .container-how-to-read-gedmatch-matches {
     background-color: white;
+}
+
+.img-zhejiang-adoptee {
+    height: 534px;
+    width: 534px;
 }
 
 .container-joint-effort {
