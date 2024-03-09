@@ -59,8 +59,20 @@ a {
     text-decoration: none;
 }
 
+.content-alignment {
+    width: var(--general-width);
+    margin: auto;
+}
+
 .container-gedmatch-day {
     background-color: white;
+}
+
+.img-gedmatch-day-teaser {
+    display: block;
+    margin: auto;
+    height: 540;
+    width: 540;
 }
 
 .container-welcome {
@@ -68,8 +80,6 @@ a {
 }
 
 .container-welcome div {
-    width: var(--general-width);
-    margin: auto;
     color: white;
 }
 
@@ -77,19 +87,11 @@ a {
     background-color: white;
 }
 
-.container-dna-testing div {
-    width: var(--general-width);
-    margin: auto;
-}
+.container-dna-testing div {}
 
 .container-whats-gedmatch {
     background-color: #4D869B;
     color: white;
-}
-
-.container-whats-gedmatch div {
-    width: var(--general-width);
-    margin: auto;
 }
 
 .gedmatch-instructions-link {
@@ -98,16 +100,21 @@ a {
 
 .gedmatch-instructions-link a {
     color: white;
+    text-decoration: underline;
+}
+
+.img-gedmatch {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 200px;
 }
 
 .container-how-to-download {
     background-color: white;
 }
 
-.container-how-to-download div {
-    width: var(--general-width);
-    margin: auto;
-}
+.container-how-to-download div {}
 
 .how-to-download-list {
     display: flex;
@@ -141,11 +148,6 @@ a {
     color: white;
 }
 
-.container-how-to-upload div {
-    width: var(--general-width);
-    margin: auto;
-}
-
 .wrapper-download-from {
     display: none;
 }
@@ -166,18 +168,8 @@ a {
     background-color: white;
 }
 
-.container-how-to-read-gedmatch-matches div {
-    width: var(--general-width);
-    margin: auto;
-}
-
 .container-joint-effort {
     background-color: white;
-}
-
-.container-joint-effort div {
-    width: var(--general-width);
-    margin: auto;
 }
 
 .container-icsa {
