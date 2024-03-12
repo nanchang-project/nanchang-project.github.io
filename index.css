@@ -59,6 +59,10 @@ a {
     text-decoration: none;
 }
 
+.container {
+    width: 100% !important;
+}
+
 .content-alignment {
     width: var(--general-width);
     margin: auto;
@@ -240,4 +244,19 @@ a {
 
 .tiktok-icon {
     /* filter: invert(40%) grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(2); */
+}
+
+.wrapper-speaker {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    gap: 5rem;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.img-speaker {
+    height: 300px;
+    width: 230px;
 }
