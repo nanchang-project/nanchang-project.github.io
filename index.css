@@ -20,6 +20,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 5rem;
+    width: 100%;
 }
 
 main div {
@@ -27,8 +28,8 @@ main div {
 }
 
 h1 {
-    font-size: 56px;
-    padding: 5rem 0;
+    font-size: 100px;
+    padding: 0;
     text-align: center;
 }
 
@@ -134,6 +135,7 @@ a {
     background-color: black;
     color: white;
     border-radius: 39px;
+    font-size: 25px;
     padding: 10px 20px;
     background-color: var(--primary-color);
     border: 2px solid var(--primary-color);
@@ -159,10 +161,17 @@ a {
 }
 
 .reveal-method {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .twentythreeandme {}
+
+.twentythreeandme img {
+    height: 600px;
+    width: 600px;
+    margin: auto;
+}
 
 .ancestry {}
 
@@ -176,6 +185,26 @@ a {
 
 .container-need-help {
     text-align: center;
+    background-color: var(--secondary-color);
+    width: 100%;
+    color: white;
+}
+
+.container-need-help button {
+    background-color: var(--primary-color);
+    border-radius: 39px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.container-need-help a {
+    color: white;
+}
+
+.container-script-for-top-10 {
+    background-color: var(--secondary-color);
+    color: white;
+    width: 100%;
 }
 
 .img-zhejiang-adoptee {
@@ -205,8 +234,8 @@ a {
 }
 
 .container-ncpt img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
 .container-rol {
@@ -255,6 +284,17 @@ a {
     /* filter: invert(40%) grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(2); */
 }
 
+.container-guest-speaker {
+    text-align: center;
+    background-color: var(--secondary-color);
+    width: 100%;
+    color: white;
+}
+
+.container-guest-speaker h2 {
+    margin-bottom: 5px;
+}
+
 .wrapper-speaker {
     display: flex;
     flex-direction: row;
@@ -263,9 +303,16 @@ a {
     gap: 5rem;
     border-radius: 5px;
     align-items: center;
+    text-align: justify;
+}
+
+.speaker-subheader {
+    font-size: 28px;
+    font-weight: 900;
 }
 
 .img-speaker {
     height: 300px;
     width: 230px;
+    border-radius: 5px;
 }
