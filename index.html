@@ -7,7 +7,7 @@
     <meta property="og:image" itemprop="image primaryImageOfPage" content="https://photos.app.goo.gl/jZCW9FArwMhsktC29">
     <meta name="description" content="An overview of GEDMatch">
 
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css?v=1">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat+Alternates">
     <link rel="icon" type="image/x-icon" href="/Assets/NCPT.png">
     <script src="./index.js"></script>
@@ -16,13 +16,16 @@
     <div class="container-gedmatch-day container">
         <h1>GEDmatch Day</h1>
         <div class="wrapper-img-pane">
-            <img src="./Assets/gedmatch-day-teaser.png" class="img-gedmatch-day-teaser" />
+            <div class="left-pane">
+                <img src="./Assets/gedmatch-day-teaser.png" class="img-gedmatch-day-teaser" />
+            </div>
             <div>
                 <img src="./Assets/hunan-sisters.jpeg" class="img-gedmatch-day-teaser" />
-                <p class="caption-text">
-                    Biological sisters Malia and Kaitlin, adopted separately from Hunan, China, found each other through DNA testing.
-                </p>
-            </div>
+            </div class="right-pane">
+            <p></p>
+            <p class="caption-text">
+                Biological sisters Malia and Kaitlin, adopted separately from Hunan, China, found each other through DNA testing.
+            </p>
         </div>
     </div>
     <div class="container-welcome container">
@@ -129,8 +132,12 @@
     </div>
     <div class="container container-adoptee-img-pane">
         <div class="wrapper-img-pane ">
-            <img src="./Assets/zhejiang-adoptee-with-family.jpg" class="img-zhejiang-adoptee" />
-            <img src="./Assets/zhejiang-adoptee-with-parents.jpg" class="img-zhejiang-adoptee" />
+            <div class="left-pane">
+                <img src="./Assets/zhejiang-adoptee-with-family.jpg" class="img-zhejiang-adoptee" />
+            </div>
+            <div class="right-pane">
+                <img src="./Assets/zhejiang-adoptee-with-parents.jpg" class="img-zhejiang-adoptee" />
+            </div>
         </div>
         <p class="adoptee-img-pane-caption">
             Qiaofei, an adoptee from Zhejiang, China, discovered her biological parents and siblings through DNA testing.

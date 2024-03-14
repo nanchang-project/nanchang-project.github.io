@@ -78,8 +78,18 @@ a {
 }
 
 .wrapper-img-pane {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-pane {
+    margin: auto 0 auto auto;
+    padding: 0;
+}
+
+.right-pane {
+    margin: auto auto auto 0;
+    padding: 0;
 }
 
 .caption-text {
@@ -89,7 +99,7 @@ a {
 }
 
 .img-gedmatch-day-teaser {
-    display: block;
+    /* display: block; */
     height: 540;
     width: 540;
 }
