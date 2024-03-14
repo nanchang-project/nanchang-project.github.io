@@ -73,9 +73,19 @@ a {
     background-color: white;
 }
 
+.container-gedmatch-day div {
+    padding: 0;
+}
+
 .wrapper-img-pane {
     display: flex;
     justify-content: center;
+}
+
+.caption-text {
+    text-align: justify;
+    font-size: 14px;
+    width: 65%;
 }
 
 .img-gedmatch-day-teaser {
@@ -205,6 +215,14 @@ a {
     background-color: var(--secondary-color);
     color: white;
     width: 100%;
+}
+
+.container-adoptee-img-pane {}
+
+.adoptee-img-pane-caption {
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
 }
 
 .img-zhejiang-adoptee {
