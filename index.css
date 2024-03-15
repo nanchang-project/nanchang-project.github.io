@@ -10,6 +10,10 @@
     font-family: "Montserrat Alternates", sans-serif;
 }
 
+html,body {
+    overflow-x: hidden;
+}
+
 body {
     text-align: justify;
     margin: 0;
@@ -208,6 +212,7 @@ a {
     background-color: var(--secondary-color);
     width: 100%;
     color: white;
+    padding: 70px;
 }
 
 .container-need-help button {
