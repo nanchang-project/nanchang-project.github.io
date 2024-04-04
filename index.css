@@ -115,6 +115,10 @@ a {
     color: white;
 }
 
+.container-welcome p {
+    text-align: left;
+}
+
 .container-dna-testing {
     background-color: white;
 }
