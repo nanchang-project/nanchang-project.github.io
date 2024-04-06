@@ -183,6 +183,19 @@ a {
     color: white;
 }
 
+.container-how-to-upload button {
+    background-color: var(--primary-color);
+    border-radius: 39px;
+    border: none;
+    padding: 10px 20px;
+    display: block;
+    margin: auto;
+}
+
+.container-how-to-upload a {
+    text-decoration: none;
+}
+
 .wrapper-download-from {
     display: none;
 }
@@ -208,6 +221,19 @@ a {
 
 .container-how-to-read-gedmatch-matches {
     background-color: white;
+}
+
+.container-how-to-read-gedmatch-matches button {
+    background-color: var(--primary-color);
+    border-radius: 39px;
+    border: none;
+    padding: 10px 20px;
+    display: block;
+    margin: auto;
+}
+
+.container-how-to-read-gedmatch-matches a {
+    color: white;
 }
 
 .container-need-help {
