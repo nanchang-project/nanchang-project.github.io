@@ -248,9 +248,9 @@ a {
     padding: 20px;
 }
 
-.wrapper-need-help {
+/* .wrapper-need-help {
     margin: 0;
-}
+} */
 
 .container-need-help button {
     background-color: var(--primary-color);
