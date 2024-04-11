@@ -124,7 +124,7 @@ a {
 .container-whats-gedmatch {
     /* background-color: #4D869B; */
     /* color: white; */
-    color: var(--secondary-color)
+    /* color: var(--secondary-color) */
 }
 
 .gedmatch-instructions-link {
@@ -188,7 +188,7 @@ a {
 .container-how-to-upload {
     /* background-color: var(--secondary-color); */
     /* color: white; */
-    color: var(--secondary-color);
+    /* color: var(--secondary-color); */
 }
 
 .container-how-to-upload button {
@@ -259,7 +259,7 @@ a {
     /* background-color: var(--secondary-color); */
     /* width: 100%; */
     /* color: white; */
-    color: var(--secondary-color);
+    /* color: var(--secondary-color); */
     padding: 20px;
 }
 
@@ -426,8 +426,8 @@ a {
 }
 
 .img-speaker {
-    height: 300px;
-    width: 230px;
+    height: 350px;
+    width: 275px;
     border-radius: 5px;
 }
 
@@ -439,6 +439,11 @@ a {
 
 .iframe-google-form {
     margin: auto;
+}
+
+.blue-background {
+    background-color: var(--secondary-color);
+    color: white;
 }
 
 @media (max-width: 1050px) {
