@@ -28,8 +28,6 @@ function revealScriptOnClick() {
 
     let scriptText = "";
     for (let i = 0; i < script.childNodes.length; i++) {
-        console.log(script.childNodes[i]);
-
         if (script.childNodes[i].nodeName == "BUTTON") {
             continue;
         }
@@ -41,8 +39,6 @@ function revealScriptOnClick() {
             
         }
     }
-
-    console.log(scriptText);
 
     let copyScriptToClipboard = document.querySelector(".script-copy-button");
     copyScriptToClipboard.addEventListener("click", copyToClipboard(scriptText));

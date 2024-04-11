@@ -147,6 +147,7 @@ a {
     /* background-color: white; */
     background-color: var(--secondary-color);
     color: white;
+    padding: 20px;
 }
 
 .container-how-to-download a {
@@ -428,6 +429,12 @@ a {
     height: 300px;
     width: 230px;
     border-radius: 5px;
+}
+
+.container-register {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 20px;
 }
 
 .iframe-google-form {
