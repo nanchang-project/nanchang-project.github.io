@@ -108,20 +108,23 @@ a {
 }
 
 .container-welcome {
-    background-color: var(--secondary-color);
+    /* background-color: var(--secondary-color); */
 }
 
 .container-welcome div {
-    color: white;
+    /* color: white; */
 }
 
 .container-dna-testing {
-    background-color: white;
+    /* background-color: white; */
+    background-color: var(--secondary-color);
+    color: white;
 }
 
 .container-whats-gedmatch {
-    background-color: #4D869B;
-    color: white;
+    /* background-color: #4D869B; */
+    /* color: white; */
+    color: var(--secondary-color)
 }
 
 .gedmatch-instructions-link {
@@ -141,7 +144,14 @@ a {
 }
 
 .container-how-to-download {
-    background-color: white;
+    /* background-color: white; */
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.container-how-to-download a {
+    color: white;
+    text-decoration: underline;
 }
 
 .container-how-to-download div {}
@@ -175,8 +185,9 @@ a {
 }
 
 .container-how-to-upload {
-    background-color: var(--secondary-color);
-    color: white;
+    /* background-color: var(--secondary-color); */
+    /* color: white; */
+    color: var(--secondary-color);
 }
 
 .container-how-to-upload button {
@@ -224,7 +235,9 @@ a {
 .ftdna {}
 
 .container-how-to-read-gedmatch-matches {
-    background-color: white;
+    /* background-color: white; */
+    background-color: var(--secondary-color);
+    color: white;
 }
 
 .container-how-to-read-gedmatch-matches button {
@@ -242,9 +255,10 @@ a {
 
 .container-need-help {
     text-align: center;
-    background-color: var(--secondary-color);
+    /* background-color: var(--secondary-color); */
     /* width: 100%; */
-    color: white;
+    /* color: white; */
+    color: var(--secondary-color);
     padding: 20px;
 }
 
