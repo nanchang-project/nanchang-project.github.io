@@ -4,8 +4,11 @@ window.onload = () => {
         howToDownloadRevealButtons[i].addEventListener("click", revealClickedDownloadMethod);
     }
 
-    let displayScriptButton = document.getElementById("display-script-button");
-    displayScriptButton.addEventListener("click", revealScriptOnClick);
+    let displayScriptTop10Button = document.getElementById("display-script-top-10-button");
+    displayScriptTop10Button.addEventListener("click", revealScriptOnClick);
+
+    let displayScriptTravelGroupButton = document.getElementById("display-script-travel-group-button");
+    displayScriptTravelGroupButton.addEventListener("click", revealScriptOnClick);
 };
 
 function revealClickedDownloadMethod(event) {
@@ -22,8 +25,16 @@ function revealClickedDownloadMethod(event) {
     elementToReveal.classList.add("reveal-method");
 }
 
-function revealScriptOnClick() {
-    const script = document.getElementById("script");
+function revealScriptOnClick(event) {
+    console.log(event.target.id);
+
+    let script;
+    if (event.target.id == "display-script-top-10-button") {
+        script = document.getElementById("script-top-10");
+    } else {
+        script = document.getElementById("script-travel-groups");
+    }
+
     script.classList.add("reveal");
 
     let scriptText = "";

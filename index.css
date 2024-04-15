@@ -285,7 +285,7 @@ a {
     width: 100%;
 }
 
-#display-script-button {
+#display-script-top-10-button, #display-script-travel-group-button {
     background-color: var(--primary-color);
     border-radius: 39px;
     border: none;
@@ -297,8 +297,14 @@ a {
     font-size: 24px;
 }
 
-#script {
+#script-top-10, #script-travel-groups {
     display: none;
+}
+
+#script-travel-groups a {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .script-copy-button {
