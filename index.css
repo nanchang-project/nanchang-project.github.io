@@ -447,6 +447,10 @@ a {
     color: white;
 }
 
+.a-top-10-screenshot-submission {
+    text-decoration: underline;
+}
+
 @media (max-width: 1050px) {
     .img-pane {
         height: 400px;
