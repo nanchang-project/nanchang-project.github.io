@@ -8,6 +8,7 @@
     padding: none;
     margin: none;
     font-family: "Montserrat Alternates", sans-serif;
+    scroll-behavior: smooth;
 }
 
 html,body {
